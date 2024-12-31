@@ -21,11 +21,11 @@ const App = () => {
   }, []);
 
   return (
-    <Router basename="/react-deploy">
+    <Router basename="/deploy">
       <div>
         <Navbar/>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/deploy" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
